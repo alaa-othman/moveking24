@@ -11,52 +11,39 @@
 <body class="bg-gradient-to-br from-slate-50 to-gray-100 font-body antialiased">
 
   <!-- ========== HEADER ========== -->
-  <header class="sticky top-0 z-50 w-full glass-header border-b border-white/30 shadow-lg shadow-indigo-100/20 transition-all duration-300">
-    <div  class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
-      <div class="flex items-center justify-between flex-wrap py-3 md:py-4">
-        
-        <!-- Logo + Brand (creative layout) -->
+  <header class="sticky top-0 z-50 w-full glass-header border-b border-white/30 transition-all duration-300">
+
+    <!-- Header Content -->
+    <div  class="w-full px-6 lg:px-10 flex items-center justify-between flex-wrap py-3 md:py-4">
+
+        <!-- Logo + Brand Name -->
         <div class="flex items-center gap-3 group cursor-pointer transition-transform duration-200 hover:scale-[1.02]">
-          <!-- animated logo with gradient -->
-            <div class="relative w-10 h-10 md:w-11 md:h-11">
-              <img src="./css/images/Logo1.png" alt="Moveking24 Logo" class="w-full h-full object-contain rounded-lg group-hover:rotate-6 transition-transform duration-300">
-            </div>
+          <div class="relative w-10 h-10 md:w-11 md:h-11">
+            <img src="./css/images/Logo1.png" alt="Moveking24 Logo" class="w-full h-full object-contain rounded-lg group-hover:rotate-6 transition-transform duration-300">
+          </div>
           <div class="flex flex-col leading-tight">
-            <span class="text-xl md:text-2xl font-display font-extrabold " style="color: #283049;">Moveking<span style="color: #e9b232;">24</span></span>
-            <span style="color: #283049;" class="text-[10px] md:text-xs tracking-wide hidden sm:inline-block">Umzüge & Transport</span>
+            <span class="text-xl md:text-2xl font-display font-extrabold text-blue-950">Moveking<span class="text-yellow-600">24</span></span>
+            <span class="text-[10px] md:text-xs text-blue-950 tracking-wide hidden sm:inline-block">Umzüge & Transport</span>
           </div>
         </div>
 
-        <!-- Desktop Navigation (flex on md+) -->
-        <nav class="hidden md:flex items-center gap-1 xl:gap-2 bg-white/30 backdrop-blur-sm rounded-full px-1 py-1 shadow-sm">
-          <a href="#home" style="color: #283049;" class="relative px-5 py-2 rounded-full font-medium transition-all duration-200 hover:text-indigo-600 hover:bg-indigo-50/80 group text-sm lg:text-base">Home</a>
-          <a href="#services" style="color: #283049;" class="relative px-5 py-2 rounded-full font-medium transition-all duration-200 hover:text-indigo-600 hover:bg-indigo-50/80 text-sm lg:text-base">Services</a>
-          <a href="#about" style="color: #283049;" class="relative px-5 py-2 rounded-full font-medium transition-all duration-200 hover:text-indigo-600 hover:bg-indigo-50/80 text-sm lg:text-base">About Us</a>
-          <a href="#contact" style="color: #283049;" class="relative px-5 py-2 rounded-full font-medium transition-all duration-200 hover:text-indigo-600 hover:bg-indigo-50/80 text-sm lg:text-base">Contact</a>
+        <!-- Desktop Navigations -->
+        <nav class="hidden md:flex items-center gap-1 xl:gap-2 bg-white/30 backdrop-blur-sm rounded-full px-1 py-1 border border-blue-950">
+          <a href="#home" class="relative text-blue-950 px-5 py-2 rounded-full font-medium transition-all duration-200 hover:text-yellow-500">Home</a>
+          <a href="#services" class="relative text-blue-950 px-5 py-2 rounded-full font-medium transition-all duration-200 hover:text-yellow-500">Services</a>
+          <a href="#about" class="relative text-blue-950 px-5 py-2 rounded-full font-medium transition-all duration-200 hover:text-yellow-500">About Us</a>
+          <a href="#contact" class="relative text-blue-950 px-5 py-2 rounded-full font-medium transition-all duration-200 hover:text-yellow-500">Contact</a>
         </nav>
 
-        <!-- Right side: desktop CTA + mobile hamburger style="background: #283049;"-->
-        <!-- <div class="flex items-center gap-4">
-          
-          <a href="#contact" style="background: linear-gradient(to right, #e9b232, #f5c54d);" class="hidden md:inline-flex items-center gap-2 px-5 py-2 rounded-full text-white text-sm font-semibold shadow-md hover:shadow-xl hover:scale-[1.02] transition-all duration-200">
-            <span>Send Form</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
-          </a>
-          
-          <button id="menuToggle" class="md:hidden relative w-11 h-11 rounded-xl flex flex-col items-center justify-center gap-1.5 bg-white/60 backdrop-blur-sm border border-gray-200 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400 transition-all" aria-label="Menu" aria-expanded="false">
-            <span class="menu-bar w-5 h-0.5 bg-gray-700 rounded-full transition-all duration-300 origin-top-left"></span>
-            <span class="menu-bar w-5 h-0.5 bg-gray-700 rounded-full transition-all duration-300"></span>
-            <span class="menu-bar w-5 h-0.5 bg-gray-700 rounded-full transition-all duration-300 origin-bottom-left"></span>
-          </button>
-        </div> -->
-        <button id="menuToggle" class="md:hidden relative w-11 h-11 rounded-xl flex flex-col items-center justify-center gap-1.5 bg-white/60 backdrop-blur-sm border border-gray-200 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400 transition-all" aria-label="Menu" aria-expanded="false">
-            <span class="menu-bar w-5 h-0.5 bg-gray-700 rounded-full transition-all duration-300 origin-top-left"></span>
-            <span class="menu-bar w-5 h-0.5 bg-gray-700 rounded-full transition-all duration-300"></span>
-            <span class="menu-bar w-5 h-0.5 bg-gray-700 rounded-full transition-all duration-300 origin-bottom-left"></span>
+        <!-- Mobile Hamburger Menu Button -->
+        <button id="menuToggle" class="md:hidden relative w-11 h-11 rounded-xl flex flex-col items-center justify-center gap-1.5 bg-white/60 backdrop-blur-sm border border-blue-950 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400 transition-all" aria-label="Menu" aria-expanded="false">
+            <span class="menu-bar w-5 h-0.5 bg-blue-950 rounded-full transition-all duration-300 origin-top-left"></span>
+            <span class="menu-bar w-5 h-0.5 bg-blue-950 rounded-full transition-all duration-300"></span>
+            <span class="menu-bar w-5 h-0.5 bg-blue-950 rounded-full transition-all duration-300 origin-bottom-left"></span>
           </button>
       </div>
 
-      <!-- Mobile Navigation Overlay Panel (modern slide) -->
+      <!-- Mobile Navigations -->
       <div id="mobileNavPanel" class="md:hidden mobile-nav-transition w-full bg-white/95 backdrop-blur-lg rounded-2xl mt-2 mb-3 shadow-2xl border border-indigo-100">
         <div class="flex flex-col p-5 space-y-3 divide-y divide-gray-100">
           <a href="#home" class="mobile-link flex items-center gap-4 px-3 py-3 rounded-xl text-gray-800 font-semibold hover:bg-indigo-50 hover:text-indigo-700 transition-all duration-200 text-base">
@@ -76,62 +63,167 @@
           </div>
         </div>
       </div>
-    </div>
   </header>
 
   <!--                                           MAIN PAGE SECTIONS -->
   <main class="overflow-hidden">
-    <!-- Hero section (home) -->
+
+    <!-- ================================ HOME SECTION -->
     <section id="home" class="w-full">
-      <div class="relative max-w-7xl mx-auto" id="home">
-        <div class="text-start w-full md:h-full py-8 md:py-16 md:w-3/4 lg:w-2/3 px-8 bg-gradient-to-r from-white to-white/20 md:to-white/10 shadow-lg">
-          <h1 class="text-3xl md:text-4xl font-bold ">
-            Wir machen schwere Umzüge leicht <br> kompetent, schnell, zuverlässig
+        <div class="px-4 lg:px-12 md:pt-16 w-3/4 md:min-w-2/3 md:max-w-auto bg-gradient-to-r from-white to-white/50 shadow-lg">
+          <h1 class="text-xl md:text-2xl lg:text-4xl font-bold text-blue-950">
+            Die besten <span class="text-yellow-600">Umzugsdienstleistungen</span> für Häuser und Firmenumzüge
           </h1>
-          <p class="mt-6 text-1xl md:text-xl">Umzug, Entrümpelung, Kücheneinbau, Klaviertransport und Gartenpflege...</p>
-          <p class="mt-1 text-1xl md:text-xl">Alles an einem Ort - Ihr bester Partner für den perfekten Umzug.</p>
-          <div class="mt-10 flex flex-wrap gap-4">
-            <a href="#services" class="px-8 py-3.5 bg-indigo-600 text-white font-semibold rounded-full shadow-lg hover:bg-indigo-700 transition transform hover:scale-105" style="background: #283049;">Explore our work</a>
+          <p class="mt-6 text-sm md:text-lg lg:text-xl">Umzug, Entrümpelung, Kücheneinbau, Klaviertransport und Gartenpflege...</p>
+          <p class="mt-1 text-sm md:text-lg lg:text-xl">Wir machen schwere Umzüge leicht kompetent, schnell, zuverlässig.</p>
+          <div class="mt-10 mb-5">
+            <a href="#services" class="px-4 md:px-6 py-2 md:py-3 bg-yellow-600 text-white font-semibold rounded-xl shadow-lg hover:bg-yellow-500">Explore our work</a>
+          </div>
+        <div class="flex flex-row items-center bg-gradient-to-r from-white to-transparent md:hidden">
+          <div class="font-bold text-xl text-blue-950 me-1"><iconify-icon icon="mdi:map-marker"></iconify-icon></div>
+          <h3 class="text-xs font-bold text-blue-950">Deutschlandweit & Ludwigshafen</h3>
+        </div>
+        <!-- </div> -->
+
+        <!--                    BIG SCREENS FEATURES -->
+          <div class="flex flex-row hidden md:flex items-center bg-gradient-to-r from-white to-transparent">
+            <div class="py-6 flex flex-col md:flex-row items-center justify-center">
+              <div class="font-bold text-2xl text-blue-950 me-1"><iconify-icon icon="mdi:shield"></iconify-icon></div>
+              <h1 class="text-lg font-bold text-blue-950">Sicher</h1>
+            </div>
+            <div class="ps-6 py-6 flex flex-col md:flex-row items-center justify-center">
+              <div class="font-bold text-2xl text-blue-950 me-1"><iconify-icon icon="mdi:clock-outline"></iconify-icon></div>
+              <h3 class="text-lg font-bold text-blue-950">Pünktlich</h3>
+            </div>
+            <div class="ps-6 py-4 flex flex-col md:flex-row items-center justify-center">
+              <div class="font-bold text-2xl text-blue-950 me-1"><iconify-icon icon="mdi:currency-eur"></iconify-icon></div>
+              <h3 class="text-lg font-bold text-blue-950">Günstig</h3>
+            </div>
+            <div class="ps-6 py-4 flex flex-col md:flex-row items-center justify-center">
+              <div class="font-bold text-2xl text-blue-950 me-1"><iconify-icon icon="mdi:map-marker"></iconify-icon></div>
+              <h3 class="text-lg font-bold text-blue-950">Deutschlandweit & Ludwigshafen</h3>
+            </div>
           </div>
         </div>
+    </section>
+
+    <!--                    SMALL SCREENS FEATURES -->
+    <section id="features" class="w-full px-2 mt-8 grid grid-cols-3 md:grid-cols-4 gap-1 md:hidden">
+      <div class="p-2 flex flex-col md:flex-row items-center justify-center bg-white rounded-lg">
+        <div class="font-bold text-md text-yellow-600"><iconify-icon icon="mdi:shield"></iconify-icon></div>
+        <h1 class="text-sm font-bold text-blue-950">Sicher</h1>
+      </div>
+      <div class="p-2 flex flex-col md:flex-row items-center justify-center bg-white rounded-lg">
+        <div class="font-bold text-md text-yellow-600"><iconify-icon icon="mdi:clock-outline"></iconify-icon></div>
+        <h3 class="text-sm font-bold text-blue-950">Pünktlich</h3>
+      </div>
+      <div class="p-2 flex flex-col md:flex-row items-center justify-center bg-white rounded-lg">
+        <div class="font-bold text-md text-yellow-600"><iconify-icon icon="mdi:currency-eur"></iconify-icon></div>
+        <h3 class="text-sm font-bold text-blue-950">Günstig</h3>
       </div>
     </section>
 
-    <!--                                                                                  Services section -->
-    <section id="services" class="scroll-mt-24 py-16 md:py-24 bg-white/50 backdrop-blur-sm">
-      <div class="max-w-7xl mx-auto px-6 md:px-10">
-        <div class="text-center mb-16">
-          <span class="uppercase text-indigo-600 font-semibold tracking-wider text-sm">What we deliver</span>
-          <h2 class="text-3xl md:text-5xl font-display font-bold mt-3 text-gray-900">Tailor-made services</h2>
-          <div class="w-24 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full mx-auto mt-5"></div>
+    <!-- ================================ SERVICES SECTION -->
+    <section id="services" class="scroll-mt-24 w-full py-8 md:py-12 lg:py-16">
+      <div class="w-full px-8 md:px-12 lg:px-16">
+        <!-- title -->
+        <div class="text-center mb-6 md:mb-10">
+          <h2 class="text-lg md:text-2xl lg:text-4xl font-bold text-blue-950">UNSERE DIENSTLEISTUNGEN</h2>
+          <div class="w-24 h-1 bg-yellow-600 rounded-full mx-auto mt-2 md:mt-4"></div>
         </div>
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- ROW 1 -->
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-4 lg:gap-8">
           <!-- service 1 -->
-          <div class="group bg-white rounded-3xl p-7 shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-            <div class="w-14 h-14 rounded-2xl bg-indigo-100 text-indigo-700 flex items-center justify-center text-2xl mb-5 group-hover:scale-110 transition">🚀</div>
-            <h3 class="text-xl font-bold text-gray-800">UX/UI Engineering</h3>
-            <p class="mt-2 text-gray-500 leading-relaxed">Pixel-perfect interfaces, user-centric design systems, and seamless interactions that captivate audiences.</p>
+          <div class="text-center text-blue-950 bg-white rounded-3xl p-4 shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+            <div class="font-bold text-4xl"><iconify-icon icon="mdi:truck-fast"></iconify-icon></div>
+            <h3 class="text-sm md:text-lg font-bold text-gray-800">Umzug & Transport</h3>
           </div>
           <!-- service 2 -->
-          <div class="group bg-white rounded-3xl p-7 shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-            <div class="w-14 h-14 rounded-2xl bg-purple-100 text-purple-700 flex items-center justify-center text-2xl mb-5 group-hover:scale-110 transition">⚙️</div>
-            <h3 class="text-xl font-bold text-gray-800">Cloud & Backend</h3>
-            <p class="mt-2 text-gray-500 leading-relaxed">Scalable serverless architectures, API integrations, and high-performance backend solutions.</p>
+          <div class="text-center text-blue-950 bg-white rounded-3xl p-4 shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+            <div class="font-bold text-4xl"><iconify-icon icon="mdi:sofa"></iconify-icon></div>
+            <h3 class="text-sm md:text-lg font-bold text-gray-800">Mobelmontage & Demontage</h3>
           </div>
           <!-- service 3 -->
-          <div class="group bg-white rounded-3xl p-7 shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-            <div class="w-14 h-14 rounded-2xl bg-pink-100 text-pink-700 flex items-center justify-center text-2xl mb-5 group-hover:scale-110 transition">📈</div>
-            <h3 class="text-xl font-bold text-gray-800">Growth Marketing</h3>
-            <p class="mt-2 text-gray-500 leading-relaxed">Data-driven strategies, SEO, and conversion optimization to amplify your brand's reach.</p>
+          <div class="text-center text-blue-950 bg-white rounded-3xl p-4 shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+            <div class="font-bold text-4xl"><iconify-icon icon="mdi:cleaning"></iconify-icon></div>
+            <h3 class="text-sm md:text-lg font-bold text-gray-800">Reinigungsservice</h3>
+          </div>
+          <!-- service 4 -->
+          <div class="text-center text-blue-950 bg-white rounded-3xl p-4 shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+            <div class="font-bold text-4xl"><iconify-icon icon="mdi:trash-can"></iconify-icon></div>
+            <h3 class="text-sm md:text-lg font-bold text-gray-800">Sperrmullabfuhr</h3>
+          </div>
+          <!-- service 5 -->
+          <div class="text-center text-blue-950 bg-white rounded-3xl p-4 shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+            <div class="font-bold text-4xl"><iconify-icon icon="mdi:tree"></iconify-icon></div>
+            <h3 class="text-sm md:text-lg font-bold text-gray-800">Gartenpflege</h3>
+          </div>
+          <!-- service 6 -->
+          <div class="text-center text-blue-950 bg-white rounded-3xl p-4 shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+            <div class="font-bold text-4xl"><iconify-icon icon="mdi:briefcase"></iconify-icon></div>
+            <h3 class="text-sm md:text-lg font-bold text-gray-800">Einpackservice & Relocation</h3>
           </div>
         </div>
       </div>
     </section>
 
-    <!--                                                      About Us -->
-    <section id="about" class="">
+    <!-- ================================ ABOUT SECTION -->
+    <section id="about" class="scroll-mt-24 w-full px-8 md:px-12 lg:px-16">
+        <!-- title -->
+        <div class="text-center mb-6 md:mb-10">
+          <h2 class="text-lg md:text-2xl lg:text-4xl font-bold text-blue-950">ÜBER UNS</h2>
+          <div class="w-24 h-1 bg-yellow-600 rounded-full mx-auto mt-2 md:mt-4"></div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
+          <div class="flex flex-col justify-center">
+            <h3 class="text-lg md:text-xl lg:text-2xl font-bold text-blue-950 mb-4">Ihre zuverlässigen Umzugsexperten</h3>
+            <p class="text-sm md:text-lg lg:text-xl text-gray-700 mb-4">Wir sind ein engagiertes Team von Umzugsspezialisten, das sich darauf konzentriert, Ihren Umzug so reibungslos und stressfrei wie möglich zu gestalten. Mit jahrelanger Erfahrung in der Branche bieten wir maßgeschneiderte Lösungen für private und gewerbliche Umzüge.</p>
+            <p class="text-sm md:text-lg lg:text-xl text-gray-700 mb-4">Unsere Dienstleistungen umfassen alles von der Planung und Organisation bis hin zur Durchführung Ihres Umzugs. Wir kümmern uns um Verpackung, Transport und sogar die Einrichtung am neuen Standort, damit Sie sich auf das Wesentliche konzentrieren können.</p>
+            <p class="text-sm md:text-lg lg:text-xl text-gray-700">Vertrauen Sie auf unsere Expertise und lassen Sie uns Ihren Umzug zu einem positiven Erlebnis machen. Ihre Zufriedenheit ist unser oberstes Ziel.</p>
+          </div>
+          <!-- Carousel Main Wrapper -->
+  <div class="relative w-full max-w-4xl mx-auto overflow-hidden rounded-xl shadow-lg group">
+    
+    <!-- Track Container (Holds Slides) -->
+    <div id="carouselTrack" class="flex transition-transform duration-500 ease-out" style="transform: translateX(0%);">
+      
+      <!-- Slide 1 -->
+      <div class="w-full shrink-0 aspect-video bg-red-500 flex items-center justify-center text-white text-3xl font-bold">
+        Slide 1
+      </div>
+      
+      <!-- Slide 2 -->
+      <div class="w-full shrink-0 aspect-video bg-blue-500 flex items-center justify-center text-white text-3xl font-bold">
+        Slide 2
+      </div>
+      
+      <!-- Slide 3 -->
+      <div class="w-full shrink-0 aspect-video bg-green-500 flex items-center justify-center text-white text-3xl font-bold">
+        Slide 3
+      </div>
+      
+    </div>
+
+    <!-- Navigation Arrows (Hidden by default, visible on hover) -->
+    <button id="prevBtn" class="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 text-white p-3 rounded-full opacity-0 group-hover:opacity-100 transition-opacity hover:bg-black/70 cursor-pointer">
+      &#10094;
+    </button>
+    <button id="nextBtn" class="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 text-white p-3 rounded-full opacity-0 group-hover:opacity-100 transition-opacity hover:bg-black/70 cursor-pointer">
+      &#10095;
+    </button>
+
+    <!-- Indicators (Dots) -->
+    <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2">
+      <button class="dot w-3 h-3 rounded-full bg-white transition-colors cursor-pointer" data-index="0"></button>
+      <button class="dot w-3 h-3 rounded-full bg-white/50 transition-colors cursor-pointer" data-index="1"></button>
+      <button class="dot w-3 h-3 rounded-full bg-white/50 transition-colors cursor-pointer" data-index="2"></button>
+    </div>
+
+  </div>
+        </div>
     </section>
 
+    <!-- ================================ CONTACT SECTION -->
     <section id="contact" class="">
       
     </section>
@@ -144,48 +236,8 @@
     </div>
   </footer>
 
-  <!-- Mobile Menu JS (toggle, plus close on link click) -->
-  <script>
-    (function() {
-      const toggleBtn = document.getElementById('menuToggle');
-      const mobilePanel = document.getElementById('mobileNavPanel');
-      const mobileLinks = document.querySelectorAll('.mobile-link');
-      let isOpen = false;
+  <script src="./js/main.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/3.0.2/iconify-icon.min.js"></script>
 
-      function setMenuState(open) {
-        if (!mobilePanel) return;
-        if (open) {
-          mobilePanel.classList.remove('mobile-nav-transition');
-          mobilePanel.classList.add('mobile-nav-open');
-          toggleBtn?.setAttribute('aria-expanded', 'true');
-          // animate bars to 'X'
-          const bars = toggleBtn?.querySelectorAll('.menu-bar');
-          if (bars) {
-            bars[0]?.classList.add('rotate-45', 'translate-y-[6px]');
-            bars[1]?.classList.add('opacity-0');
-            bars[2]?.classList.add('-rotate-45', '-translate-y-[6px]');
-          }
-        } else {
-          mobilePanel.classList.remove('mobile-nav-open');
-          mobilePanel.classList.add('mobile-nav-transition');
-          toggleBtn?.setAttribute('aria-expanded', 'false');
-          const bars = toggleBtn?.querySelectorAll('.menu-bar');
-          if (bars) {
-            bars[0]?.classList.remove('rotate-45', 'translate-y-[6px]');
-            bars[1]?.classList.remove('opacity-0');
-            bars[2]?.classList.remove('-rotate-45', '-translate-y-[6px]');
-          }
-        }
-        isOpen = open;
-      }
-
-      if (toggleBtn && mobilePanel) {
-        mobilePanel.classList.add('mobile-nav-transition');
-        toggleBtn.addEventListener('click', () => setMenuState(!isOpen));
-        mobileLinks.forEach(link => link.addEventListener('click', () => setMenuState(false)));
-        window.addEventListener('resize', () => { if (window.innerWidth >= 768 && isOpen) setMenuState(false); });
-      }
-    })();
-  </script>
 </body>
 </html>
