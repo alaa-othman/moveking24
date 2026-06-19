@@ -28,7 +28,7 @@
         </div>
 
         <!-- Desktop Navigations -->
-        <nav class="hidden md:flex items-center gap-1 xl:gap-2 bg-white/30 backdrop-blur-sm rounded-full px-1 py-1 border border-blue-950">
+        <nav class="hidden md:flex items-center gap-1 xl:gap-2 bg-white/30 backdrop-blur-sm rounded-full px-1 py-1 border border-blue-950 hover:border-yellow-500">
           <a href="#home" class="relative text-blue-950 px-5 py-2 rounded-full font-medium transition-all duration-200 hover:text-yellow-500">Home</a>
           <a href="#services" class="relative text-blue-950 px-5 py-2 rounded-full font-medium transition-all duration-200 hover:text-yellow-500">Services</a>
           <a href="#about" class="relative text-blue-950 px-5 py-2 rounded-full font-medium transition-all duration-200 hover:text-yellow-500">About Us</a>
@@ -44,25 +44,25 @@
       </div>
 
       <!-- Mobile Navigations -->
-      <div id="mobileNavPanel" class="md:hidden mobile-nav-transition w-full bg-white/95 backdrop-blur-lg rounded-2xl mt-2 mb-3 shadow-2xl border border-indigo-100">
-        <div class="flex flex-col p-5 space-y-3 divide-y divide-gray-100">
-          <a href="#home" class="mobile-link flex items-center gap-4 px-3 py-3 rounded-xl text-gray-800 font-semibold hover:bg-indigo-50 hover:text-indigo-700 transition-all duration-200 text-base">
-            <span class="w-8 h-8 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600">🏠</span> Home
+      <div id="mobileNavPanel" class="md:hidden mobile-nav-transition w-4/5 mx-auto rounded-2xl shadow-2xl border bordder-blue-950">
+        <div class="flex flex-col p-5">
+          <a href="#home" class="mobile-link flex items-center gap-4 px-3 py-3 rounded-xl text-blue-950 font-bold hover:bg-indigo-50 hover:text-indigo-700 transition-all duration-200 text-base">
+            <div class="font-bold text-xl text-yellow-600"><iconify-icon icon="mdi:home"></iconify-icon></div>Home
           </a>
-          <a href="#services" class="mobile-link flex items-center gap-4 px-3 py-3 rounded-xl text-gray-800 font-semibold hover:bg-indigo-50 hover:text-indigo-700 transition-all duration-200 text-base">
-            <span class="w-8 h-8 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600">⚡</span> Services
+          <a href="#services" class="mobile-link flex items-center gap-4 px-3 py-3 rounded-xl text-blue-950 font-bold hover:bg-indigo-50 hover:text-indigo-700 transition-all duration-200 text-base">
+            <div class="font-bold text-xl text-yellow-600"><iconify-icon icon="mdi:briefcase"></iconify-icon></div>Services
           </a>
-          <a href="#about" class="mobile-link flex items-center gap-4 px-3 py-3 rounded-xl text-gray-800 font-semibold hover:bg-indigo-50 hover:text-indigo-700 transition-all duration-200 text-base">
-            <span class="w-8 h-8 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600">🌟</span> About Us
+          <a href="#about" class="mobile-link flex items-center gap-4 px-3 py-3 rounded-xl text-blue-950 font-bold hover:bg-indigo-50 hover:text-indigo-700 transition-all duration-200 text-base">
+            <div class="font-bold text-xl text-yellow-600"><iconify-icon icon="mdi:information"></iconify-icon></div>About Us
           </a>
-          <a href="#contact" class="mobile-link flex items-center gap-4 px-3 py-3 rounded-xl text-gray-800 font-semibold hover:bg-indigo-50 hover:text-indigo-700 transition-all duration-200 text-base">
-            <span class="w-8 h-8 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600">📞</span> Contact
+          <a href="#contact" class="mobile-link flex items-center gap-4 px-3 py-3 rounded-xl text-blue-950 font-bold hover:bg-indigo-50 hover:text-indigo-700 transition-all duration-200 text-base">
+            <div class="font-bold text-xl text-yellow-600"><iconify-icon icon="mdi:phone"></iconify-icon></div> Contact
           </a>
           <div class="pt-3">
-            <a href="#contact" class="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-3 rounded-xl font-semibold shadow-md hover:shadow-lg transition">Get in touch →</a>
+            <a href="#contact" class="flex items-center justify-center gap-2 w-full bg-yellow-600 text-white py-3 rounded-xl font-semibold shadow-md hover:shadow-lg transition">Get in touch →</a>
           </div>
         </div>
-      </div>
+      </div>  
   </header>
 
   <!--                                           MAIN PAGE SECTIONS -->
@@ -70,23 +70,23 @@
 
     <!-- ================================ HOME SECTION -->
     <section id="home" class="w-full">
-        <div class="px-4 lg:px-12 md:pt-16 w-3/4 md:min-w-2/3 md:max-w-auto bg-gradient-to-r from-white to-white/50 shadow-lg">
-          <h1 class="text-xl md:text-2xl lg:text-4xl font-bold text-blue-950">
+        <div class="sm:w-full md:w-2/3 bg-gradient-to-b md:bg-gradient-to-r from-white to-white/15 shadow-lg">
+          <h1 class="px-4 md:px-12 pt-8 md:pt-16 text-xl md:text-2xl lg:text-4xl font-bold text-blue-950">
             Die besten <span class="text-yellow-600">Umzugsdienstleistungen</span> für Häuser und Firmenumzüge
           </h1>
-          <p class="mt-6 text-sm md:text-lg lg:text-xl">Umzug, Entrümpelung, Kücheneinbau, Klaviertransport und Gartenpflege...</p>
-          <p class="mt-1 text-sm md:text-lg lg:text-xl">Wir machen schwere Umzüge leicht kompetent, schnell, zuverlässig.</p>
-          <div class="mt-10 mb-5">
+          <p class="mt-6 px-4 md:px-12 text-sm md:text-lg lg:text-xl font-semibold text-blue-950">Umzug, Entrümpelung, Kücheneinbau, Klaviertransport und Gartenpflege...</p>
+          <p class="mt-1 px-4 md:px-12 text-sm md:text-lg lg:text-xl font-semibold text-blue-950">Wir machen schwere Umzüge leicht kompetent, schnell, zuverlässig.</p>
+          <div class="my-10 px-4 md:px-12">
             <a href="#services" class="px-4 md:px-6 py-2 md:py-3 bg-yellow-600 text-white font-semibold rounded-xl shadow-lg hover:bg-yellow-500">Explore our work</a>
           </div>
-        <div class="flex flex-row items-center bg-gradient-to-r from-white to-transparent md:hidden">
-          <div class="font-bold text-xl text-blue-950 me-1"><iconify-icon icon="mdi:map-marker"></iconify-icon></div>
+        <div class="px-4 md:px-12 py-3 flex flex-row items-center bg-gradient-to-r from-white to-transparent md:hidden">
+          <div class="font-bold text-md text-blue-950"><iconify-icon icon="mdi:map-marker"></iconify-icon></div>
           <h3 class="text-xs font-bold text-blue-950">Deutschlandweit & Ludwigshafen</h3>
         </div>
         <!-- </div> -->
 
         <!--                    BIG SCREENS FEATURES -->
-          <div class="flex flex-row hidden md:flex items-center bg-gradient-to-r from-white to-transparent">
+          <div class="px-12 flex flex-row hidden md:flex items-center bg-gradient-to-r from-white to-transparent">
             <div class="py-6 flex flex-col md:flex-row items-center justify-center">
               <div class="font-bold text-2xl text-blue-950 me-1"><iconify-icon icon="mdi:shield"></iconify-icon></div>
               <h1 class="text-lg font-bold text-blue-950">Sicher</h1>
@@ -124,7 +124,7 @@
     </section>
 
     <!-- ================================ SERVICES SECTION -->
-    <section id="services" class="scroll-mt-24 w-full py-8 md:py-12 lg:py-16">
+    <section id="services" class="scroll-mt-24 w-full py-12 md:py-16 lg:py-24">
       <div class="w-full px-8 md:px-12 lg:px-16">
         <!-- title -->
         <div class="text-center mb-6 md:mb-10">
@@ -174,52 +174,55 @@
           <h2 class="text-lg md:text-2xl lg:text-4xl font-bold text-blue-950">ÜBER UNS</h2>
           <div class="w-24 h-1 bg-yellow-600 rounded-full mx-auto mt-2 md:mt-4"></div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
-          <div class="flex flex-col justify-center">
-            <h3 class="text-lg md:text-xl lg:text-2xl font-bold text-blue-950 mb-4">Ihre zuverlässigen Umzugsexperten</h3>
-            <p class="text-sm md:text-lg lg:text-xl text-gray-700 mb-4">Wir sind ein engagiertes Team von Umzugsspezialisten, das sich darauf konzentriert, Ihren Umzug so reibungslos und stressfrei wie möglich zu gestalten. Mit jahrelanger Erfahrung in der Branche bieten wir maßgeschneiderte Lösungen für private und gewerbliche Umzüge.</p>
-            <p class="text-sm md:text-lg lg:text-xl text-gray-700 mb-4">Unsere Dienstleistungen umfassen alles von der Planung und Organisation bis hin zur Durchführung Ihres Umzugs. Wir kümmern uns um Verpackung, Transport und sogar die Einrichtung am neuen Standort, damit Sie sich auf das Wesentliche konzentrieren können.</p>
-            <p class="text-sm md:text-lg lg:text-xl text-gray-700">Vertrauen Sie auf unsere Expertise und lassen Sie uns Ihren Umzug zu einem positiven Erlebnis machen. Ihre Zufriedenheit ist unser oberstes Ziel.</p>
-          </div>
+        <!-- Uber Uns Container -->
+        <!-- <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12"> -->
+        <div class="flex flex-col md:flex-row gap-6 md:gap-12 items-center">
           <!-- Carousel Main Wrapper -->
-  <div class="relative w-full max-w-4xl mx-auto overflow-hidden rounded-xl shadow-lg group">
-    
-    <!-- Track Container (Holds Slides) -->
-    <div id="carouselTrack" class="flex transition-transform duration-500 ease-out" style="transform: translateX(0%);">
-      
-      <!-- Slide 1 -->
-      <div class="w-full shrink-0 aspect-video bg-red-500 flex items-center justify-center text-white text-3xl font-bold">
-        Slide 1
-      </div>
-      
-      <!-- Slide 2 -->
-      <div class="w-full shrink-0 aspect-video bg-blue-500 flex items-center justify-center text-white text-3xl font-bold">
-        Slide 2
-      </div>
-      
-      <!-- Slide 3 -->
-      <div class="w-full shrink-0 aspect-video bg-green-500 flex items-center justify-center text-white text-3xl font-bold">
-        Slide 3
-      </div>
-      
-    </div>
+          <div class="relative w-full bg-red-200 overflow-hidden group rounded-lg">
+            <!-- Track Container (Holds Slides) -->
+            <div id="carouselTrack" class="flex transition-transform duration-500 ease-out" style="transform: translateX(0%);">
+              
+              <!-- Slide 1 -->
+              <div class="w-full shrink-0 text-white text-3xl font-bold">
+                <img src="./css/images/5863888140672635513_121.jpg" alt="Moveking24 Logo" class="w-full h-full rounded-lg">
+              </div>
+              
+              <!-- Slide 2 -->
+              <div class="w-full shrink-0 text-white text-3xl font-bold">
+                <img src="./css/images/5863888140672635516_121.jpg" alt="Moveking24 Logo" class="w-full h-full rounded-lg">
+              </div>
+              
+              <!-- Slide 3 -->
+              <div class="w-full shrink-0 text-white text-3xl font-bold">
+                <img src="./css/images/Logo.png" alt="Moveking24 Logo" class="w-full h-full rounded-lg">
+              </div>
+              
+            </div>
 
-    <!-- Navigation Arrows (Hidden by default, visible on hover) -->
-    <button id="prevBtn" class="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 text-white p-3 rounded-full opacity-0 group-hover:opacity-100 transition-opacity hover:bg-black/70 cursor-pointer">
-      &#10094;
-    </button>
-    <button id="nextBtn" class="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 text-white p-3 rounded-full opacity-0 group-hover:opacity-100 transition-opacity hover:bg-black/70 cursor-pointer">
-      &#10095;
-    </button>
+            <!-- Navigation Arrows (Hidden by default, visible on hover) -->
+            <button id="prevBtn" class="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 text-white p-3 rounded-full group-hover:transition-opacity hover:bg-black/70 cursor-pointer">
+              &#10094;
+            </button>
+            <button id="nextBtn" class="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 text-white p-3 rounded-full group-hover:transition-opacity hover:bg-black/70 cursor-pointer">
+              &#10095;
+            </button>
 
-    <!-- Indicators (Dots) -->
-    <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2">
-      <button class="dot w-3 h-3 rounded-full bg-white transition-colors cursor-pointer" data-index="0"></button>
-      <button class="dot w-3 h-3 rounded-full bg-white/50 transition-colors cursor-pointer" data-index="1"></button>
-      <button class="dot w-3 h-3 rounded-full bg-white/50 transition-colors cursor-pointer" data-index="2"></button>
-    </div>
+            <!-- Indicators (Dots) -->
+            <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2">
+              <button class="dot w-3 h-3 rounded-full bg-white transition-colors cursor-pointer" data-index="0"></button>
+              <button class="dot w-3 h-3 rounded-full bg-white/50 transition-colors cursor-pointer" data-index="1"></button>
+              <button class="dot w-3 h-3 rounded-full bg-white/50 transition-colors cursor-pointer" data-index="2"></button>
+            </div>
 
-  </div>
+          </div>
+
+          <!-- Uber Uns Content -->
+          <div class="flex flex-col justify-center bg-red-200 w-full">
+            <h3 class="text-sm md:text-md lg:text-lg font-bold text-blue-950 mb-4">Ihre zuverlässigen Umzugsexperten</h3>
+            <p class="text-xs md:text-sm lg:text-md text-gray-700 mb-4">Wir sind ein engagiertes Team von Umzugsspezialisten, das sich darauf konzentriert, Ihren Umzug so reibungslos und stressfrei wie möglich zu gestalten. Mit jahrelanger Erfahrung in der Branche bieten wir maßgeschneiderte Lösungen für private und gewerbliche Umzüge.</p>
+            <p class="text-xs md:text-sm lg:text-md text-gray-700 mb-4">Unsere Dienstleistungen umfassen alles von der Planung und Organisation bis hin zur Durchführung Ihres Umzugs. Wir kümmern uns um Verpackung, Transport und sogar die Einrichtung am neuen Standort, damit Sie sich auf das Wesentliche konzentrieren können.</p>
+            <p class="text-xs md:text-sm lg:text-md text-gray-700">Vertrauen Sie auf unsere Expertise und lassen Sie uns Ihren Umzug zu einem positiven Erlebnis machen. Ihre Zufriedenheit ist unser oberstes Ziel.</p>
+          </div>
         </div>
     </section>
 
