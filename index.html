@@ -29,10 +29,10 @@
 
         <!-- Desktop Navigations -->
         <nav class="hidden md:flex items-center gap-1 xl:gap-2 bg-white/30 backdrop-blur-sm rounded-full px-1 py-1 border border-blue-950 hover:border-yellow-500">
-          <a href="#home" class="relative text-blue-950 px-5 py-2 rounded-full font-medium transition-all duration-200 hover:text-yellow-500">Home</a>
-          <a href="#services" class="relative text-blue-950 px-5 py-2 rounded-full font-medium transition-all duration-200 hover:text-yellow-500">Services</a>
-          <a href="#about" class="relative text-blue-950 px-5 py-2 rounded-full font-medium transition-all duration-200 hover:text-yellow-500">About Us</a>
-          <a href="#contact" class="relative text-blue-950 px-5 py-2 rounded-full font-medium transition-all duration-200 hover:text-yellow-500">Contact</a>
+          <a href="#home" class="relative text-blue-950 px-5 py-2 rounded-full font-medium transition-all duration-200 hover:text-yellow-500">Startseite</a>
+          <a href="#services" class="relative text-blue-950 px-5 py-2 rounded-full font-medium transition-all duration-200 hover:text-yellow-500">DIENSTLEISTUNGEN</a>
+          <a href="#about" class="relative text-blue-950 px-5 py-2 rounded-full font-medium transition-all duration-200 hover:text-yellow-500">ÜBER UNS</a>
+          <a href="#contact" class="relative text-blue-950 px-5 py-2 rounded-full font-medium transition-all duration-200 hover:text-yellow-500">Kontakt</a>
         </nav>
 
         <!-- Mobile Hamburger Menu Button -->
@@ -46,20 +46,22 @@
       <!-- Mobile Navigations -->
       <div id="mobileNavPanel" class="md:hidden mobile-nav-transition w-4/5 mx-auto rounded-2xl shadow-2xl border bordder-blue-950">
         <div class="flex flex-col p-5">
-          <a href="#home" class="mobile-link flex items-center gap-4 px-3 py-3 rounded-xl text-blue-950 font-bold hover:bg-indigo-50 hover:text-indigo-700 transition-all duration-200 text-base">
-            <div class="font-bold text-xl text-yellow-600"><iconify-icon icon="mdi:home"></iconify-icon></div>Home
+          <a href="#home" class="mobile-link flex gap-2 px-3 py-3 text-blue-950 font-bold hover:bg-indigo-50 hover:text-indigo-700 transition-all duration-200 text-base">
+            <div class="font-bold text-xl text-yellow-600"><iconify-icon icon="mdi:home"></iconify-icon></div>Startseite
           </a>
-          <a href="#services" class="mobile-link flex items-center gap-4 px-3 py-3 rounded-xl text-blue-950 font-bold hover:bg-indigo-50 hover:text-indigo-700 transition-all duration-200 text-base">
-            <div class="font-bold text-xl text-yellow-600"><iconify-icon icon="mdi:briefcase"></iconify-icon></div>Services
+          <a href="#services" class="mobile-link flex gap-2 px-3 py-3 text-blue-950 font-bold hover:bg-indigo-50 hover:text-indigo-700 transition-all duration-200 text-base">
+            <div class="font-bold text-xl text-yellow-600"><iconify-icon icon="mdi:briefcase"></iconify-icon></div>DIENSTLEISTUNGEN
           </a>
-          <a href="#about" class="mobile-link flex items-center gap-4 px-3 py-3 rounded-xl text-blue-950 font-bold hover:bg-indigo-50 hover:text-indigo-700 transition-all duration-200 text-base">
-            <div class="font-bold text-xl text-yellow-600"><iconify-icon icon="mdi:information"></iconify-icon></div>About Us
+          <a href="#about" class="mobile-link flex gap-2 px-3 py-3 text-blue-950 font-bold hover:bg-indigo-50 hover:text-indigo-700 transition-all duration-200 text-base">
+            <div class="font-bold text-xl text-yellow-600"><iconify-icon icon="mdi:information"></iconify-icon></div>ÜBER UNS
           </a>
-          <a href="#contact" class="mobile-link flex items-center gap-4 px-3 py-3 rounded-xl text-blue-950 font-bold hover:bg-indigo-50 hover:text-indigo-700 transition-all duration-200 text-base">
-            <div class="font-bold text-xl text-yellow-600"><iconify-icon icon="mdi:phone"></iconify-icon></div> Contact
+          <a href="#contact" class="mobile-link flex gap-2 px-3 py-3 text-blue-950 font-bold hover:bg-indigo-50 hover:text-indigo-700 transition-all duration-200 text-base">
+            <div class="font-bold text-xl text-yellow-600"><iconify-icon icon="mdi:phone"></iconify-icon></div>Kontakt
           </a>
-          <div class="pt-3">
-            <a href="#contact" class="flex items-center justify-center gap-2 w-full bg-yellow-600 text-white py-3 rounded-xl font-semibold shadow-md hover:shadow-lg transition">Get in touch →</a>
+          <hr>
+          <p class="text-transparent">fake</p>
+          <div class="pt-1">
+            <a href="#contact" class="w-full bg-yellow-600 text-white p-3 rounded-xl font-semibold shadow-md hover:shadow-lg transition">Buchen Sie Ihre Bestellung</a>
           </div>
         </div>
       </div>  
@@ -70,14 +72,14 @@
 
     <!-- ================================ HOME SECTION -->
     <section id="home" class="w-full">
-        <div class="sm:w-full md:w-2/3 bg-gradient-to-b md:bg-gradient-to-r from-white to-white/15 shadow-lg">
+        <div class="sm:w-full md:w-2/3 bg-gradient-to-br from-white to-white/15 shadow-lg">
           <h1 class="px-4 md:px-12 pt-8 md:pt-16 text-xl md:text-2xl lg:text-4xl font-bold text-blue-950">
-            Die besten <span class="text-yellow-600">Umzugsdienstleistungen</span> für Häuser und Firmenumzüge
+            Die besten <p class="text-yellow-600 md:inline">Umzugsdienstleistungen</p> für Häuser und Firmenumzüge
           </h1>
           <p class="mt-6 px-4 md:px-12 text-sm md:text-lg lg:text-xl font-semibold text-blue-950">Umzug, Entrümpelung, Kücheneinbau, Klaviertransport und Gartenpflege...</p>
           <p class="mt-1 px-4 md:px-12 text-sm md:text-lg lg:text-xl font-semibold text-blue-950">Wir machen schwere Umzüge leicht kompetent, schnell, zuverlässig.</p>
           <div class="my-10 px-4 md:px-12">
-            <a href="#services" class="px-4 md:px-6 py-2 md:py-3 bg-yellow-600 text-white font-semibold rounded-xl shadow-lg hover:bg-yellow-500">Explore our work</a>
+            <a href="#services" class="px-4 md:px-6 py-2 md:py-3 bg-yellow-600 text-white font-semibold rounded-xl shadow-lg hover:bg-yellow-500">Buchen Sie Ihre Bestellung</a>
           </div>
         <div class="px-4 md:px-12 py-3 flex flex-row items-center bg-gradient-to-r from-white to-transparent md:hidden">
           <div class="font-bold text-md text-blue-950"><iconify-icon icon="mdi:map-marker"></iconify-icon></div>
@@ -175,60 +177,121 @@
           <div class="w-24 h-1 bg-yellow-600 rounded-full mx-auto mt-2 md:mt-4"></div>
         </div>
         <!-- Uber Uns Container -->
-        <!-- <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12"> -->
-        <div class="flex flex-col md:flex-row gap-6 md:gap-12 items-center">
-          <!-- Carousel Main Wrapper -->
-          <div class="relative w-full bg-red-200 overflow-hidden group rounded-lg">
-            <!-- Track Container (Holds Slides) -->
-            <div id="carouselTrack" class="flex transition-transform duration-500 ease-out" style="transform: translateX(0%);">
-              
-              <!-- Slide 1 -->
-              <div class="w-full shrink-0 text-white text-3xl font-bold">
-                <img src="./css/images/5863888140672635513_121.jpg" alt="Moveking24 Logo" class="w-full h-full rounded-lg">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
+           <!-- ====================== Carousel -->
+            <div id="carouselTrack" class="relative h-[350px] w-full max-w-2xl mx-auto bg-red-200 rounded-xl shadow-lg overflow-hidden group">
+              <!-- Items Container -->
+              <div id="carouselItems" class="flex h-full w-full transition-transform duration-500 ease-out">
+                <div class="carousel-slide flex-shrink-0 w-full h-full flex items-center justify-center text-4xl font-bold text-blue-800"
+                    style="background-image: url(./css/images/5863888140672635513_121.jpg); background-size: cover; background-position: center;"></div>
+                <div class="carousel-slide flex-shrink-0 w-full h-full flex items-center justify-center text-4xl font-bold text-blue-800"
+                    style="background-image: url(./css/images/5863888140672635511_121.jpg); background-size: cover; background-position: center;"></div>
+                <div class="carousel-slide flex-shrink-0 w-full h-full flex items-center justify-center text-4xl font-bold text-blue-800"
+                    style="background-image: url(./css/images/5863888140672635512_121.jpg); background-size: cover; background-position: center;"></div>
+                <div class="carousel-slide flex-shrink-0 w-full h-full flex items-center justify-center text-4xl font-bold text-blue-800"
+                    style="background-image: url(./css/images/5863888140672635506_121.jpg); background-size: cover; background-position: center;"></div>
+                <div class="carousel-slide flex-shrink-0 w-full h-full flex items-center justify-center text-4xl font-bold text-blue-800"
+                    style="background-image: url(./css/images/5863888140672635505_121.jpg); background-size: cover; background-position: center;"></div>
+                <div class="carousel-slide flex-shrink-0 w-full h-full flex items-center justify-center text-4xl font-bold text-blue-800"
+                    style="background-image: url(./css/images/5863888140672635508_121.jpg); background-size: cover; background-position: center;"></div>
               </div>
-              
-              <!-- Slide 2 -->
-              <div class="w-full shrink-0 text-white text-3xl font-bold">
-                <img src="./css/images/5863888140672635516_121.jpg" alt="Moveking24 Logo" class="w-full h-full rounded-lg">
-              </div>
-              
-              <!-- Slide 3 -->
-              <div class="w-full shrink-0 text-white text-3xl font-bold">
-                <img src="./css/images/Logo.png" alt="Moveking24 Logo" class="w-full h-full rounded-lg">
-              </div>
-              
+
+              <!-- Navigation Arrows -->
+              <button id="prevBtn" class="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 flex items-center justify-center bg-white/80 hover:bg-white rounded-full shadow-md transition-all duration-200 group-hover:opacity-100 focus:opacity-100 text-2xl font-light text-gray-700 hover:scale-110">‹</button>
+              <button id="nextBtn" class="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 flex items-center justify-center bg-white/80 hover:bg-white rounded-full shadow-md transition-all duration-200 group-hover:opacity-100 focus:opacity-100 text-2xl font-light text-gray-700 hover:scale-110">›</button>
+
+              <!-- Dots Container -->
+              <div id="dotsContainer" class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2.5"></div>
             </div>
-
-            <!-- Navigation Arrows (Hidden by default, visible on hover) -->
-            <button id="prevBtn" class="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 text-white p-3 rounded-full group-hover:transition-opacity hover:bg-black/70 cursor-pointer">
-              &#10094;
-            </button>
-            <button id="nextBtn" class="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 text-white p-3 rounded-full group-hover:transition-opacity hover:bg-black/70 cursor-pointer">
-              &#10095;
-            </button>
-
-            <!-- Indicators (Dots) -->
-            <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2">
-              <button class="dot w-3 h-3 rounded-full bg-white transition-colors cursor-pointer" data-index="0"></button>
-              <button class="dot w-3 h-3 rounded-full bg-white/50 transition-colors cursor-pointer" data-index="1"></button>
-              <button class="dot w-3 h-3 rounded-full bg-white/50 transition-colors cursor-pointer" data-index="2"></button>
-            </div>
-
-          </div>
 
           <!-- Uber Uns Content -->
-          <div class="flex flex-col justify-center bg-red-200 w-full">
-            <h3 class="text-sm md:text-md lg:text-lg font-bold text-blue-950 mb-4">Ihre zuverlässigen Umzugsexperten</h3>
-            <p class="text-xs md:text-sm lg:text-md text-gray-700 mb-4">Wir sind ein engagiertes Team von Umzugsspezialisten, das sich darauf konzentriert, Ihren Umzug so reibungslos und stressfrei wie möglich zu gestalten. Mit jahrelanger Erfahrung in der Branche bieten wir maßgeschneiderte Lösungen für private und gewerbliche Umzüge.</p>
-            <p class="text-xs md:text-sm lg:text-md text-gray-700 mb-4">Unsere Dienstleistungen umfassen alles von der Planung und Organisation bis hin zur Durchführung Ihres Umzugs. Wir kümmern uns um Verpackung, Transport und sogar die Einrichtung am neuen Standort, damit Sie sich auf das Wesentliche konzentrieren können.</p>
-            <p class="text-xs md:text-sm lg:text-md text-gray-700">Vertrauen Sie auf unsere Expertise und lassen Sie uns Ihren Umzug zu einem positiven Erlebnis machen. Ihre Zufriedenheit ist unser oberstes Ziel.</p>
+          <div class="flex flex-col justify-center bg-yellow-500 w-full p-4 md:p-6 lg:p-8 rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-all duration-300">
+            <h3 class="text-sm md:text-md lg:text-lg font-bold text-white mb-4">Ihre zuverlässigen Umzugsexperten</h3>
+            <p class="text-xs md:text-sm lg:text-md text-gray-700 mb-4 text-blue-950">Wir sind ein engagiertes Team von Umzugsspezialisten, das sich darauf konzentriert, Ihren Umzug so reibungslos und stressfrei wie möglich zu gestalten. Mit jahrelanger Erfahrung in der Branche bieten wir maßgeschneiderte Lösungen für private und gewerbliche Umzüge.</p>
+            <p class="text-xs md:text-sm lg:text-md text-gray-700 mb-4 text-blue-950">Unsere Dienstleistungen umfassen alles von der Planung und Organisation bis hin zur Durchführung Ihres Umzugs. Wir kümmern uns um Verpackung, Transport und sogar die Einrichtung am neuen Standort, damit Sie sich auf das Wesentliche konzentrieren können.</p>
+            <p class="text-xs md:text-sm lg:text-md text-gray-700 text-blue-950">Vertrauen Sie auf unsere Expertise und lassen Sie uns Ihren Umzug zu einem positiven Erlebnis machen. Ihre Zufriedenheit ist unser oberstes Ziel.</p>
           </div>
         </div>
     </section>
 
     <!-- ================================ CONTACT SECTION -->
-    <section id="contact" class="">
-      
+    <section id="contact" class="flex items-center justify-center font-sans my-12 md:my-16 lg:my-24 px-4 md:px-8 lg:px-12">
+      <div class="w-[300px] md:w-1/2 mx-auto bg-white/80 shadow-2xl rounded-3xl p-6 md:p-10 border border-white/30 transition-all hover:shadow-[0_20px_70px_-15px_rgba(0,0,0,0.2)]">
+        <!-- Form header -->
+        <div class="mb-4 md:mb-8 text-center">
+          <h2 class="text-xl md:text-2xl lg:text-4xl font-extrabold text-gray-800">
+            Nehmen Sie Kontakt auf
+          </h2>
+          <div class="w-16 h-1 bg-yellow-600 mx-auto mt-3 rounded-full"></div>
+        </div>
+
+        <p class="text-blue-950 text-sm md:text-lg mb-8">Wenn Sie eine Bestellung aufgeben möchten,<a href="#home" class="text-yellow-600 hover:text-yellow-800"> klicken Sie bitte hier </a>.</p>
+        <!-- CONTACT FORM -->
+        <form 
+          action="https://formsubmit.co/alaaosman982@gmail.com" 
+          method="POST"
+          class="space-y-2 md:space-y-4"
+        >
+          <!-- (optional) FormSubmit hidden config: disable captcha & use dark theme -->
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <!-- you can also add "_subject" to set a custom subject -->
+          <input type="hidden" name="_subject" value="New contact form submission">
+
+          <!-- NAME -->
+          <div>
+            <input 
+              type="text" 
+              name="name" 
+              required
+              placeholder="Name"
+              class="w-full px-2 py-2 md:py-3 rounded-xl text-sm md:text-lg bg-gray-50/80 border border-gray-200/80 focus:bg-white focus:border-indigo-400 focus:ring-4 focus:ring-indigo-200/50 outline-none transition-all duration-200 text-gray-700 placeholder:text-gray-400 shadow-inner"
+            >
+          </div>
+
+          <!-- PHONE -->
+          <div>
+            <input 
+              type="tel" 
+              name="phone" 
+              required
+              placeholder="Telefonnummer"
+              class="w-full px-2 py-2 md:py-3 text-sm md:text-lg rounded-xl bg-gray-50/80 border border-gray-200/80 focus:bg-white focus:border-indigo-400 focus:ring-4 focus:ring-indigo-200/50 outline-none transition-all duration-200 text-gray-700 placeholder:text-gray-400 shadow-inner"
+            >
+          </div>
+
+          <!-- EMAIL -->
+          <div>
+            <input 
+              type="email" 
+              name="email" 
+              required
+              placeholder="E-Mail"
+              class="w-full px-2 py-2 md:py-3 text-sm md:text-lg rounded-xl bg-gray-50/80 border border-gray-200/80 focus:bg-white focus:border-indigo-400 focus:ring-4 focus:ring-indigo-200/50 outline-none transition-all duration-200 text-gray-700 placeholder:text-gray-400 shadow-inner"
+            >
+          </div>
+
+          <!-- MESSAGE -->
+          <div>
+            <textarea 
+              name="message" 
+              rows="4" 
+              required
+              placeholder="Ihre Nachricht ..."
+              class="w-full px-2 py-2 md:py-3 text-sm md:text-lg rounded-xl bg-gray-50/80 border border-gray-200/80 focus:bg-white focus:border-indigo-400 focus:ring-4 focus:ring-indigo-200/50 outline-none transition-all duration-200 resize-y text-gray-700 placeholder:text-gray-400 shadow-inner"
+            ></textarea>
+          </div>
+
+          <!-- SUBMIT BUTTON -->
+          <button 
+            type="submit"
+            class="w-full bg-blue-950 hover:bg-blue-800 text-md md:text-xl text-white font-bold text-lg py-2 px-2 rounded-xl shadow-lg hover:shadow-indigo-500/30 transition-all duration-300 flex items-center justify-center gap-3 group transform hover:scale-[1.01] active:scale-[0.98]"
+          >
+            <span>Nachricht senden</span>
+            <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform duration-200"></i>
+          </button>
+        </form>
+      </div>
     </section>
   </main>
 
