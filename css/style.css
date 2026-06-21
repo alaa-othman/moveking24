@@ -40,4 +40,9 @@ html {
     outline-offset: 2px;
     border-radius: 0.5rem;
 }
-
+#wts{
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    z-index: 10000;
+}
